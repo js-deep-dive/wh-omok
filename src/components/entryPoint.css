@@ -1,0 +1,32 @@
+.panel-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/cell.png');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.white,
+.black {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 05px 1px rgba(0, 0, 0, 0.55);
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+}
