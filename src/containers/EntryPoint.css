@@ -1,3 +1,26 @@
 h1 {
   text-align: center;
 }
+
+.user-form-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.user-form {
+  color: #ffffff;
+  width: 50%;
+}
+
+.users-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+}
